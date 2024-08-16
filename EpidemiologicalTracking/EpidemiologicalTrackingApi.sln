@@ -7,6 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EpidemiologicalTrackingApi"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3B561541-5716-462C-B0C3-864F26BD60E9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{A90FE3BD-3A92-423E-8657-045EBAA333E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{8E7B9212-136C-43D5-AE2A-673646091627}"
+	ProjectSection(SolutionItems) = preProject
+		build.yml = build.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +30,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A316AD05-0143-454E-952B-0CB30F49E8DC} = {3B561541-5716-462C-B0C3-864F26BD60E9}
+		{8E7B9212-136C-43D5-AE2A-673646091627} = {A90FE3BD-3A92-423E-8657-045EBAA333E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0075803-BAE3-453B-869A-3A738ACEDF56}
