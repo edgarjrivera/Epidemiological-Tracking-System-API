@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cuLY8HztqznAngXNL7iPUGpP3JAFFF4ukOXUkHtGCnk=",
+  "Source": "EpidemiologicalTrackingApi",
+  "BasePath": "_content/EpidemiologicalTrackingApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
