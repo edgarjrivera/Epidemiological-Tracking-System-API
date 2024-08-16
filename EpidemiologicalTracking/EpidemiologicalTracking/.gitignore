@@ -1,0 +1,53 @@
+﻿# Build Folders
+bin/
+obj/
+out/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/
+.vs/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Logs
+*.log
+logs/
+
+# Generated files
+*.g.dart
+*.g.cs
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+.nuget/
+packages/
+.nuget/
+
+# Publish
+.publish/
+
+# Entity Framework
+Migrations/
+
+# Secrets
+secrets.json
+
+# Config files
+appsettings.*.json
+appsettings.Development.json
+appsettings.Local.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db

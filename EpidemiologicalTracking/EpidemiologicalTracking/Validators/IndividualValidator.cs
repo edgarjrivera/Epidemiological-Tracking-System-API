@@ -28,7 +28,8 @@ namespace EpidemiologicalTrackingApi.Validators
                 .Length(2, 50).WithMessage("Each symptom must be between 2 and 50 characters."));
 
             RuleFor(x => x.Diagnosed)
-                .NotNull().WithMessage("Diagnosed field must be provided.");
+                .Must(x => x)
+                .WithMessage("Diagnosed must be true.");
 
             RuleFor(x => x.DateDiagnosed)
                 .NotNull()
